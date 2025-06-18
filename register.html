@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ------------ Register Style --------------------->
+     <div id="registerMainBox" class="container text-center my-5 ">
+        <div class="main-box p-5 m-auto " >
+            <h1>Smart Login System</h1>
+            <input type="text" class="form-control my-3" id="registerName" placeholder="Enter your name">
+            <input type="text" class="form-control my-3" id="registerEmail" placeholder="Enter your email">
+            <input type="password" class="form-control my-3" id="registerPassword" placeholder="Enter your password">
+           
+            <p id="emailIsExist" class="text-danger fw-bold d-none">Email is already registered</p>
+            <p id="InputRequired" class="text-danger fw-bold d-none">All inputs are required</p>
+            <p id="registerSuccess" class="text-success fw-bold d-none">Register Success</p>
+            
+            <button id="signUpBtn" class="btn btn-outline-info w-100 my-3"> Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white" href="index.html">Sign In</a></p>
+        </div>
+    </div>
+    <!-- --------End Register Style ------------------>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</body>
+
+</html>
