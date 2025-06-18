@@ -52,7 +52,7 @@ a:hover{
 }
 
 .main-box-in-dashboard{
-    animation: myAnim 2s ease 0s 1 normal forwards;
+    animation: myAnim 1.4s ease 0s 1 normal forwards;
     box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
     /* width: 30%; */
 }
@@ -67,46 +67,16 @@ h1 {
     font-size: 2.5rem;
 }
 }
+
+
+
+
 @keyframes myAnim {
 	0% {
-		animation-timing-function: ease-in;
-		opacity: 0;
-		transform: translateX(-250px);
-	}
-
-	38% {
-		animation-timing-function: ease-out;
-		opacity: 1;
-		transform: translateX(0);
-	}
-
-	55% {
-		animation-timing-function: ease-in;
-		transform: translateX(-68px);
-	}
-
-	72% {
-		animation-timing-function: ease-out;
-		transform: translateX(0);
-	}
-
-	81% {
-		animation-timing-function: ease-in;
-		transform: translateX(-28px);
-	}
-
-	90% {
-		animation-timing-function: ease-out;
-		transform: translateX(0);
-	}
-
-	95% {
-		animation-timing-function: ease-in;
-		transform: translateX(-8px);
+		transform: scale(0.5);
 	}
 
 	100% {
-		animation-timing-function: ease-out;
-		transform: translateX(0);
+		transform: scale(1);
 	}
 }
