@@ -165,7 +165,7 @@ function displayName() {
     var user = JSON.parse(localStorage.getItem("loggedInUser"));
 
     if (user && user.name) {
-        welcomeText.innerHTML = `Welcome Mr ${user.name}`;
+        welcomeText.innerHTML = `Welcome Mr<strong> ${user.name}</strong>, How Was Your Day ? i hope you feeling good`;
     } else {
         window.location.href = "index.html";
     }
